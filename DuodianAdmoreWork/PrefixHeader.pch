@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  DuodianAdmoreWork
+//
+//  Created by duodian on 2017/7/12.
+//  Copyright © 2017年 duodian. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <YYKit.h>
+#import "ToolMacro.h"
+#import "AppMacro.h"
+#import <SVProgressHUD.h>
+#import "NetWorkManager.h"
+#import "ColorGradualTool.h"
+
+#endif /* PrefixHeader_pch */

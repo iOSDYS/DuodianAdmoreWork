@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
- typedef void(^BackBlock)();
+typedef void(^BackBlock)();
+typedef void(^NextBlock)();
 
 @interface RegisterView : UIView
 @property (nonatomic,strong) BackBlock backBlock;
+@property (nonatomic,strong) NextBlock nextBlock;
 @end

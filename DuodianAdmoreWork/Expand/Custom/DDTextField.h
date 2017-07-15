@@ -1,13 +1,13 @@
 //
-//  TestController.h
+//  DDTextField.h
 //  DuodianAdmoreWork
 //
-//  Created by duodian on 2017/7/13.
+//  Created by duodian on 2017/7/14.
 //  Copyright © 2017年 duodian. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface TestController : UIViewController
+@interface DDTextField : UITextField
 
 @end

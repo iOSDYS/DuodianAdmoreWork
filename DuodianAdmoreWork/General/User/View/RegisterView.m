@@ -9,6 +9,7 @@
 #import "RegisterView.h"
 @interface RegisterView ()
 @property (weak, nonatomic) IBOutlet UIButton *nextBtn;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *widthConstraint;
 @end
 
 @implementation RegisterView
@@ -19,12 +20,20 @@
 }
 
 - (void)initView {
+    _widthConstraint.constant = SCREEN_WIDTH * 0.7;
     ViewBorderRadius(self.nextBtn, self.nextBtn.height/2, 0.5f, [UIColor colorWithHexString:@"f7f7f7"]);
 }
 
 - (IBAction)backClicked:(id)sender {
+    [self endEditing:YES];
     if (self.backBlock) {
         self.backBlock();
+    }
+}
+
+- (IBAction)nextClicked:(id)sender {
+    if (self.nextBlock) {
+        self.nextBlock();
     }
 }
 

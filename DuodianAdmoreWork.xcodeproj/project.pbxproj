@@ -10,9 +10,7 @@
 		07296BF4AF499DEACCB00909 /* libPods-DuodianAdmoreWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC33F3B477423D2D3ED8942C /* libPods-DuodianAdmoreWork.a */; };
 		FB3D730E1F172E44001E6D77 /* ColorGradualTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D730D1F172E44001E6D77 /* ColorGradualTool.m */; };
 		FB3D73111F1754A5001E6D77 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73101F1754A5001E6D77 /* UIBarButtonItem+Extension.m */; };
-		FB3D73141F176162001E6D77 /* ForgetPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73131F176162001E6D77 /* ForgetPwdController.m */; };
 		FB3D73181F17628C001E6D77 /* AutoCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73171F17628C001E6D77 /* AutoCodeView.m */; };
-		FB3D731B1F176841001E6D77 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D731A1F176841001E6D77 /* TestController.m */; };
 		FB3D731E1F176CFE001E6D77 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D731D1F176CFE001E6D77 /* LoginView.m */; };
 		FB3D73201F176D0A001E6D77 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3D731F1F176D0A001E6D77 /* LoginView.xib */; };
 		FB3D73231F176D22001E6D77 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73221F176D22001E6D77 /* RegisterView.m */; };
@@ -20,11 +18,12 @@
 		FB3D73281F1770AA001E6D77 /* EntranceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73271F1770AA001E6D77 /* EntranceController.m */; };
 		FB3D732B1F177E6A001E6D77 /* ForgetPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D732A1F177E6A001E6D77 /* ForgetPwdView.m */; };
 		FB3D732D1F177E79001E6D77 /* ForgetPwdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3D732C1F177E79001E6D77 /* ForgetPwdView.xib */; };
+		FB3D73921F1856A6001E6D77 /* DDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73911F1856A6001E6D77 /* DDTextField.m */; };
+		FB3D73951F185B08001E6D77 /* PerfectInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73941F185B08001E6D77 /* PerfectInfoView.m */; };
+		FB3D73971F185B16001E6D77 /* PerfectInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3D73961F185B16001E6D77 /* PerfectInfoView.xib */; };
 		FB4B4A9D1F15BAAC005B52CB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4A9C1F15BAAC005B52CB /* BaseViewController.m */; };
 		FB4B4AA01F15BAC6005B52CB /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4A9F1F15BAC6005B52CB /* BaseNavController.m */; };
 		FB4B4AA81F15BD84005B52CB /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4AA71F15BD84005B52CB /* User.storyboard */; };
-		FB4B4AAB1F15BEE0005B52CB /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4AAA1F15BEE0005B52CB /* LoginController.m */; };
-		FB4B4AB11F15C689005B52CB /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4AB01F15C689005B52CB /* RegisterController.m */; };
 		FB4B4AB51F15CEC4005B52CB /* LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4AB41F15CEC4005B52CB /* LeftController.m */; };
 		FB4B4B161F15FF11005B52CB /* InvoiceCancelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B151F15FF11005B52CB /* InvoiceCancelController.m */; };
 		FB4B4B1A1F15FF31005B52CB /* InvoiceCancelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B181F15FF31005B52CB /* InvoiceCancelCell.m */; };
@@ -69,12 +68,8 @@
 		FB3D730D1F172E44001E6D77 /* ColorGradualTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGradualTool.m; sourceTree = "<group>"; };
 		FB3D730F1F1754A5001E6D77 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		FB3D73101F1754A5001E6D77 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
-		FB3D73121F176162001E6D77 /* ForgetPwdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdController.h; sourceTree = "<group>"; };
-		FB3D73131F176162001E6D77 /* ForgetPwdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdController.m; sourceTree = "<group>"; };
 		FB3D73161F17628C001E6D77 /* AutoCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCodeView.h; sourceTree = "<group>"; };
 		FB3D73171F17628C001E6D77 /* AutoCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCodeView.m; sourceTree = "<group>"; };
-		FB3D73191F176841001E6D77 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
-		FB3D731A1F176841001E6D77 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 		FB3D731C1F176CFE001E6D77 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		FB3D731D1F176CFE001E6D77 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		FB3D731F1F176D0A001E6D77 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
@@ -86,6 +81,11 @@
 		FB3D73291F177E6A001E6D77 /* ForgetPwdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdView.h; sourceTree = "<group>"; };
 		FB3D732A1F177E6A001E6D77 /* ForgetPwdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdView.m; sourceTree = "<group>"; };
 		FB3D732C1F177E79001E6D77 /* ForgetPwdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPwdView.xib; sourceTree = "<group>"; };
+		FB3D73901F1856A6001E6D77 /* DDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextField.h; sourceTree = "<group>"; };
+		FB3D73911F1856A6001E6D77 /* DDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTextField.m; sourceTree = "<group>"; };
+		FB3D73931F185B08001E6D77 /* PerfectInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectInfoView.h; sourceTree = "<group>"; };
+		FB3D73941F185B08001E6D77 /* PerfectInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectInfoView.m; sourceTree = "<group>"; };
+		FB3D73961F185B16001E6D77 /* PerfectInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerfectInfoView.xib; sourceTree = "<group>"; };
 		FB4B4A9B1F15BAAC005B52CB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		FB4B4A9C1F15BAAC005B52CB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		FB4B4A9E1F15BAC6005B52CB /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
@@ -93,10 +93,6 @@
 		FB4B4AA11F15BB03005B52CB /* ToolMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMacro.h; sourceTree = "<group>"; };
 		FB4B4AA21F15BBC0005B52CB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FB4B4AA71F15BD84005B52CB /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
-		FB4B4AA91F15BEE0005B52CB /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
-		FB4B4AAA1F15BEE0005B52CB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
-		FB4B4AAF1F15C689005B52CB /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
-		FB4B4AB01F15C689005B52CB /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 		FB4B4AB31F15CEC4005B52CB /* LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftController.h; sourceTree = "<group>"; };
 		FB4B4AB41F15CEC4005B52CB /* LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftController.m; sourceTree = "<group>"; };
 		FB4B4B141F15FF11005B52CB /* InvoiceCancelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceCancelController.h; sourceTree = "<group>"; };
@@ -192,6 +188,8 @@
 			children = (
 				FB3D73161F17628C001E6D77 /* AutoCodeView.h */,
 				FB3D73171F17628C001E6D77 /* AutoCodeView.m */,
+				FB3D73901F1856A6001E6D77 /* DDTextField.h */,
+				FB3D73911F1856A6001E6D77 /* DDTextField.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -285,14 +283,6 @@
 		FB4B4AA41F15BD23005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4AA91F15BEE0005B52CB /* LoginController.h */,
-				FB4B4AAA1F15BEE0005B52CB /* LoginController.m */,
-				FB4B4AAF1F15C689005B52CB /* RegisterController.h */,
-				FB4B4AB01F15C689005B52CB /* RegisterController.m */,
-				FB3D73121F176162001E6D77 /* ForgetPwdController.h */,
-				FB3D73131F176162001E6D77 /* ForgetPwdController.m */,
-				FB3D73191F176841001E6D77 /* TestController.h */,
-				FB3D731A1F176841001E6D77 /* TestController.m */,
 				FB3D73261F1770AA001E6D77 /* EntranceController.h */,
 				FB3D73271F1770AA001E6D77 /* EntranceController.m */,
 			);
@@ -318,6 +308,9 @@
 				FB3D73291F177E6A001E6D77 /* ForgetPwdView.h */,
 				FB3D732A1F177E6A001E6D77 /* ForgetPwdView.m */,
 				FB3D732C1F177E79001E6D77 /* ForgetPwdView.xib */,
+				FB3D73931F185B08001E6D77 /* PerfectInfoView.h */,
+				FB3D73941F185B08001E6D77 /* PerfectInfoView.m */,
+				FB3D73961F185B16001E6D77 /* PerfectInfoView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1207,6 +1200,7 @@
 				FB4B4B591F161A5D005B52CB /* CashFlowCell.xib in Resources */,
 				FB3D73201F176D0A001E6D77 /* LoginView.xib in Resources */,
 				FB517D321F14DF0500DDAFA2 /* LaunchScreen.storyboard in Resources */,
+				FB3D73971F185B16001E6D77 /* PerfectInfoView.xib in Resources */,
 				FB3D732D1F177E79001E6D77 /* ForgetPwdView.xib in Resources */,
 				FB4B4B361F160EC0005B52CB /* WithdrawCheckCell.xib in Resources */,
 				FB4B4B611F161C0A005B52CB /* RechargeStatementCell.xib in Resources */,
@@ -1276,6 +1270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3D73951F185B08001E6D77 /* PerfectInfoView.m in Sources */,
 				FB4B4B4C1F161620005B52CB /* ResourceConsumeController.m in Sources */,
 				FB4B4AA01F15BAC6005B52CB /* BaseNavController.m in Sources */,
 				FB4B4B601F161C0A005B52CB /* RechargeStatementCell.m in Sources */,
@@ -1291,8 +1286,8 @@
 				FB4B4A9D1F15BAAC005B52CB /* BaseViewController.m in Sources */,
 				FB4B4B2D1F160CB7005B52CB /* AgentConsumeCell.m in Sources */,
 				FB4B4B1A1F15FF31005B52CB /* InvoiceCancelCell.m in Sources */,
+				FB3D73921F1856A6001E6D77 /* DDTextField.m in Sources */,
 				FB4B4B351F160EC0005B52CB /* WithdrawCheckCell.m in Sources */,
-				FB3D731B1F176841001E6D77 /* TestController.m in Sources */,
 				FB4B4B311F160EA4005B52CB /* WithdrawCheckController.m in Sources */,
 				FB4B4B3D1F1611EB005B52CB /* ResourceUnsubscribeCheckCell.m in Sources */,
 				FB4B4B161F15FF11005B52CB /* InvoiceCancelController.m in Sources */,
@@ -1300,17 +1295,14 @@
 				FB517D271F14DF0500DDAFA2 /* AppDelegate.m in Sources */,
 				FB3D73111F1754A5001E6D77 /* UIBarButtonItem+Extension.m in Sources */,
 				FB4B4B291F160C97005B52CB /* AgentConsumeController.m in Sources */,
-				FB4B4AB11F15C689005B52CB /* RegisterController.m in Sources */,
 				FB3D73181F17628C001E6D77 /* AutoCodeView.m in Sources */,
 				FB517D241F14DF0500DDAFA2 /* main.m in Sources */,
 				FB4B4B581F161A5D005B52CB /* CashFlowCell.m in Sources */,
 				FB3D731E1F176CFE001E6D77 /* LoginView.m in Sources */,
 				FB4B4B501F161637005B52CB /* ResourceConsumeCell.m in Sources */,
-				FB3D73141F176162001E6D77 /* ForgetPwdController.m in Sources */,
 				FB3D732B1F177E6A001E6D77 /* ForgetPwdView.m in Sources */,
 				FB4B4B391F1611AF005B52CB /* ResourceUnsubscribeCheckController.m in Sources */,
 				FB4B4B411F16144D005B52CB /* PreOpenInvoiceCheckController.m in Sources */,
-				FB4B4AAB1F15BEE0005B52CB /* LoginController.m in Sources */,
 				FB3D73231F176D22001E6D77 /* RegisterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

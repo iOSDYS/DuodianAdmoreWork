@@ -54,4 +54,10 @@
     }
 }
 
+- (IBAction)loginClicked:(id)sender {
+    if (self.loginBlock) {
+        self.loginBlock();
+    }
+}
+
 @end

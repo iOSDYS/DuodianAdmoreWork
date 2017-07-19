@@ -1,23 +1,23 @@
 //
-//  RechargeStatementController.m
+//  AgentRebateViewController.m
 //  DuodianAdmoreWork
 //
-//  Created by duodian on 2017/7/12.
+//  Created by duodian on 2017/7/17.
 //  Copyright © 2017年 duodian. All rights reserved.
 //
 
-#import "RechargeStatementController.h"
-#import "RechargeStatementCell.h"
+#import "AgentRebateViewController.h"
+#import "AgentRebateViewCell.h"
 
-@interface RechargeStatementController ()<UITableViewDelegate,UITableViewDataSource>
+@interface AgentRebateViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @end
 
-@implementation RechargeStatementController
+@implementation AgentRebateViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    [self.view addSubview:self.tableView];
 }
 
 #pragma mark 懒加载
@@ -27,7 +27,7 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.tableFooterView = [UIView new];
-        [_tableView registerNib:[UINib nibWithNibName:@"RechargeStatementCell" bundle:nil] forCellReuseIdentifier:@"cell"];
+        [_tableView registerNib:[UINib nibWithNibName:@"AgentRebateViewCell" bundle:nil] forCellReuseIdentifier:@"cell"];
     }
     return _tableView;
 }
@@ -38,12 +38,11 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    RechargeStatementCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    AgentRebateViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 64;
 }
-
 @end

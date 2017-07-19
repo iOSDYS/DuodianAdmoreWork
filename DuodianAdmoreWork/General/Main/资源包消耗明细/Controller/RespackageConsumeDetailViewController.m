@@ -1,19 +1,19 @@
 //
-//  InvoiceInfoController.m
+//  RespackageConsumeDetailViewController.m
 //  DuodianAdmoreWork
 //
-//  Created by duodian on 2017/7/12.
+//  Created by duodian on 2017/7/17.
 //  Copyright © 2017年 duodian. All rights reserved.
 //
 
-#import "InvoiceInfoController.h"
-#import "InvoiceInfoCell.h"
+#import "RespackageConsumeDetailViewController.h"
+#import "RespackageConsumeCell.h"
 
-@interface InvoiceInfoController ()<UITableViewDelegate,UITableViewDataSource>
+@interface RespackageConsumeDetailViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @end
 
-@implementation InvoiceInfoController
+@implementation RespackageConsumeDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,7 +27,7 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.tableFooterView = [UIView new];
-        [_tableView registerNib:[UINib nibWithNibName:@"InvoiceInfoCell" bundle:nil] forCellReuseIdentifier:@"cell"];
+        [_tableView registerNib:[UINib nibWithNibName:@"RespackageConsumeCell" bundle:nil] forCellReuseIdentifier:@"cell"];
     }
     return _tableView;
 }
@@ -38,12 +38,13 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    InvoiceInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    RespackageConsumeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 64;
 }
+
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ResourceConsumeController.h
+//  LeftController.h
 //  DuodianAdmoreWork
 //
 //  Created by duodian on 2017/7/12.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface ResourceConsumeController : BaseViewController
+@interface LeftController : BaseViewController
 
 @end

@@ -12,7 +12,7 @@
 #import "LeftController.h"
 #import "BaseNavController.h"
 #import "BaseViewController.h"
-#import <IQKeyboardManager.h>
+#import "IQKeyboardManager.h"
 #import "EntranceController.h"
 
 @interface AppDelegate ()

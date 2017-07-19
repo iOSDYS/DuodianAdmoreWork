@@ -20,7 +20,7 @@
 }
 
 - (void)setGradientBGColorWithView:(UIView *)view frame:(CGRect)frame LeftColor:(UIColor *)leftColor rightColor:(UIColor *)rightColor {
-    view.backgroundColor = [UIColor clearColor];
+    view.backgroundColor = [UIColor redColor];
     if ([[view.layer.sublayers lastObject] isKindOfClass:[CAGradientLayer class]]) {
         [[view.layer.sublayers lastObject] removeFromSuperlayer];
     }
@@ -50,9 +50,9 @@
     gradientLayer.startPoint = CGPointMake(0, 0);
     gradientLayer.endPoint = CGPointMake(0, 1);
     gradientLayer.frame = frame;
-    gradientLayer.cornerRadius = view.layer.cornerRadius;
-    gradientLayer.masksToBounds = YES;
-    gradientLayer.zPosition = -1;
+//    gradientLayer.cornerRadius = view.layer.cornerRadius;
+//    gradientLayer.masksToBounds = YES;
+//    gradientLayer.zPosition = -1;
     [view.layer addSublayer:gradientLayer];
 }
 @end

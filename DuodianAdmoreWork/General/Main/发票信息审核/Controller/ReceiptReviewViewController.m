@@ -1,19 +1,20 @@
 //
-//  ResourceConsumeController.m
+//  ReceiptReviewViewController.m
 //  DuodianAdmoreWork
 //
-//  Created by duodian on 2017/7/12.
+//  Created by duodian on 2017/7/17.
 //  Copyright © 2017年 duodian. All rights reserved.
 //
 
-#import "ResourceConsumeController.h"
-#import "ResourceConsumeCell.h"
+#import "ReceiptReviewViewController.h"
+#import "RecepitReviewDetailController.h"
+#import "ReceiptReviewCell.h"
 
-@interface ResourceConsumeController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ReceiptReviewViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @end
 
-@implementation ResourceConsumeController
+@implementation ReceiptReviewViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,7 +28,7 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.tableFooterView = [UIView new];
-        [_tableView registerNib:[UINib nibWithNibName:@"ResourceConsumeCell" bundle:nil] forCellReuseIdentifier:@"cell"];
+        [_tableView registerNib:[UINib nibWithNibName:@"ReceiptReviewCell" bundle:nil] forCellReuseIdentifier:@"cell"];
     }
     return _tableView;
 }
@@ -38,12 +39,18 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    ResourceConsumeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    ReceiptReviewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 64;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    RecepitReviewDetailController *vc = [[RecepitReviewDetailController alloc] initWithNibName:@"RecepitReviewDetailController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

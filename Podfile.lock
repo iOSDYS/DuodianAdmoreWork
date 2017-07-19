@@ -14,6 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Charts/Core (3.0.1)
+  - Charts/Realm (3.0.1):
+    - Charts/Core
+    - RealmSwift (~> 1.1)
   - IQKeyboardManager (4.0.10)
   - Masonry (1.0.2)
   - MMDrawerController (0.6.0):
@@ -28,6 +32,11 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
   - SVProgressHUD (2.1.2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -35,6 +44,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Charts/Realm
   - IQKeyboardManager
   - Masonry
   - MMDrawerController
@@ -43,12 +53,15 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
   IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 0376743dabc5ba8a2b1d4f500a6607822ba1469d
+PODFILE CHECKSUM: a3e5f419e78272870de5910494a6de65b7d985ca
 
 COCOAPODS: 1.2.1

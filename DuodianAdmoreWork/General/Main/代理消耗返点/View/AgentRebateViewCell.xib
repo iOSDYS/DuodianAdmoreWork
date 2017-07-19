@@ -10,32 +10,32 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="64" id="KGk-i7-Jjw" customClass="AgentConsumeCell">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="64" id="YDa-R7-9CU" customClass="AgentRebateViewCell">
             <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YDa-R7-9CU" id="gwj-au-rPz">
                 <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axB-A5-CJ2">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNp-VD-Efz">
                         <rect key="frame" x="10" y="8" width="56" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海聚力传媒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5P-vx-pcQ">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海聚力传媒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbg-38-iDh">
                         <rect key="frame" x="279" y="8" width="86" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="返点比例：2.5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zT9-8h-hwM">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="返点比例：2.5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7D-MH-Jkg">
                         <rect key="frame" x="262.5" y="38.5" width="102.5" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="返点奖励金额" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAD-Bj-uks">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="返点奖励金额" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0Q-rQ-gn0">
                         <rect key="frame" x="10" y="38.5" width="86" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,14 +43,14 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="zT9-8h-hwM" secondAttribute="bottom" constant="8" id="BUd-cJ-Tqx"/>
-                    <constraint firstItem="e5P-vx-pcQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="E4Q-1W-iQ3"/>
-                    <constraint firstAttribute="trailing" secondItem="zT9-8h-hwM" secondAttribute="trailing" constant="10" id="ZWL-qm-sSh"/>
-                    <constraint firstItem="axB-A5-CJ2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="kuz-S0-qOA"/>
-                    <constraint firstAttribute="bottom" secondItem="pAD-Bj-uks" secondAttribute="bottom" constant="8" id="obq-bl-uGu"/>
-                    <constraint firstItem="axB-A5-CJ2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="pos-uO-gL5"/>
-                    <constraint firstAttribute="trailing" secondItem="e5P-vx-pcQ" secondAttribute="trailing" constant="10" id="sa3-wD-OGA"/>
-                    <constraint firstItem="pAD-Bj-uks" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="yag-F7-8BW"/>
+                    <constraint firstItem="Nbg-38-iDh" firstAttribute="top" secondItem="gwj-au-rPz" secondAttribute="top" constant="8" id="2kS-mv-vTF"/>
+                    <constraint firstItem="LNp-VD-Efz" firstAttribute="leading" secondItem="gwj-au-rPz" secondAttribute="leading" constant="10" id="4b3-UO-cEN"/>
+                    <constraint firstAttribute="trailing" secondItem="Nbg-38-iDh" secondAttribute="trailing" constant="10" id="9ep-oB-GYb"/>
+                    <constraint firstItem="LNp-VD-Efz" firstAttribute="top" secondItem="gwj-au-rPz" secondAttribute="top" constant="8" id="Vbc-Ae-paJ"/>
+                    <constraint firstAttribute="trailing" secondItem="r7D-MH-Jkg" secondAttribute="trailing" constant="10" id="WH7-4w-NLS"/>
+                    <constraint firstAttribute="bottom" secondItem="r7D-MH-Jkg" secondAttribute="bottom" constant="8" id="j8j-Vr-qkO"/>
+                    <constraint firstItem="B0Q-rQ-gn0" firstAttribute="leading" secondItem="gwj-au-rPz" secondAttribute="leading" constant="10" id="jgo-BI-jc2"/>
+                    <constraint firstAttribute="bottom" secondItem="B0Q-rQ-gn0" secondAttribute="bottom" constant="8" id="zxp-G3-hev"/>
                 </constraints>
             </tableViewCellContentView>
             <point key="canvasLocation" x="33.5" y="64"/>

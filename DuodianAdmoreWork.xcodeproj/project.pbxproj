@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07296BF4AF499DEACCB00909 /* libPods-DuodianAdmoreWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC33F3B477423D2D3ED8942C /* libPods-DuodianAdmoreWork.a */; };
+		A673C1CA463FDCBB004EECC7 /* Pods_DuodianAdmoreWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF526B5A26AB13C6819C89D /* Pods_DuodianAdmoreWork.framework */; };
 		FB3D730E1F172E44001E6D77 /* ColorGradualTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D730D1F172E44001E6D77 /* ColorGradualTool.m */; };
 		FB3D73111F1754A5001E6D77 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73101F1754A5001E6D77 /* UIBarButtonItem+Extension.m */; };
 		FB3D73181F17628C001E6D77 /* AutoCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73171F17628C001E6D77 /* AutoCodeView.m */; };
@@ -21,19 +21,17 @@
 		FB3D73921F1856A6001E6D77 /* DDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73911F1856A6001E6D77 /* DDTextField.m */; };
 		FB3D73951F185B08001E6D77 /* PerfectInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D73941F185B08001E6D77 /* PerfectInfoView.m */; };
 		FB3D73971F185B16001E6D77 /* PerfectInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3D73961F185B16001E6D77 /* PerfectInfoView.xib */; };
+		FB4801271F1CA28E0040E5DC /* EffectDailyRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4801261F1CA28E0040E5DC /* EffectDailyRecordViewController.m */; };
+		FB48012A1F1CA2DC0040E5DC /* ReceiptCancelReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4801291F1CA2DC0040E5DC /* ReceiptCancelReviewViewController.m */; };
+		FB48012D1F1CA3030040E5DC /* PlayGeneralizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB48012C1F1CA3030040E5DC /* PlayGeneralizeViewController.m */; };
+		FB4801311F1CA3670040E5DC /* AgentRebateViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB48012F1F1CA3670040E5DC /* AgentRebateViewCell.m */; };
+		FB4801321F1CA3670040E5DC /* AgentRebateViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4801301F1CA3670040E5DC /* AgentRebateViewCell.xib */; };
 		FB4B4A9D1F15BAAC005B52CB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4A9C1F15BAAC005B52CB /* BaseViewController.m */; };
 		FB4B4AA01F15BAC6005B52CB /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4A9F1F15BAC6005B52CB /* BaseNavController.m */; };
 		FB4B4AA81F15BD84005B52CB /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4AA71F15BD84005B52CB /* User.storyboard */; };
-		FB4B4AB51F15CEC4005B52CB /* LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4AB41F15CEC4005B52CB /* LeftController.m */; };
 		FB4B4B161F15FF11005B52CB /* InvoiceCancelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B151F15FF11005B52CB /* InvoiceCancelController.m */; };
 		FB4B4B1A1F15FF31005B52CB /* InvoiceCancelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B181F15FF31005B52CB /* InvoiceCancelCell.m */; };
 		FB4B4B1B1F15FF31005B52CB /* InvoiceCancelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B191F15FF31005B52CB /* InvoiceCancelCell.xib */; };
-		FB4B4B1E1F1608E9005B52CB /* InvoiceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B1D1F1608E9005B52CB /* InvoiceInfoController.m */; };
-		FB4B4B251F16095E005B52CB /* InvoiceInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B231F16095E005B52CB /* InvoiceInfoCell.m */; };
-		FB4B4B261F16095E005B52CB /* InvoiceInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B241F16095E005B52CB /* InvoiceInfoCell.xib */; };
-		FB4B4B291F160C97005B52CB /* AgentConsumeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B281F160C97005B52CB /* AgentConsumeController.m */; };
-		FB4B4B2D1F160CB7005B52CB /* AgentConsumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B2B1F160CB7005B52CB /* AgentConsumeCell.m */; };
-		FB4B4B2E1F160CB7005B52CB /* AgentConsumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B2C1F160CB7005B52CB /* AgentConsumeCell.xib */; };
 		FB4B4B311F160EA4005B52CB /* WithdrawCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B301F160EA4005B52CB /* WithdrawCheckController.m */; };
 		FB4B4B351F160EC0005B52CB /* WithdrawCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B331F160EC0005B52CB /* WithdrawCheckCell.m */; };
 		FB4B4B361F160EC0005B52CB /* WithdrawCheckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B341F160EC0005B52CB /* WithdrawCheckCell.xib */; };
@@ -43,27 +41,52 @@
 		FB4B4B411F16144D005B52CB /* PreOpenInvoiceCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B401F16144D005B52CB /* PreOpenInvoiceCheckController.m */; };
 		FB4B4B481F16147E005B52CB /* PreOpenInvoiceCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B461F16147E005B52CB /* PreOpenInvoiceCheckCell.m */; };
 		FB4B4B491F16147E005B52CB /* PreOpenInvoiceCheckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B471F16147E005B52CB /* PreOpenInvoiceCheckCell.xib */; };
-		FB4B4B4C1F161620005B52CB /* ResourceConsumeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B4B1F161620005B52CB /* ResourceConsumeController.m */; };
-		FB4B4B501F161637005B52CB /* ResourceConsumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B4E1F161637005B52CB /* ResourceConsumeCell.m */; };
-		FB4B4B511F161637005B52CB /* ResourceConsumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B4F1F161637005B52CB /* ResourceConsumeCell.xib */; };
 		FB4B4B541F161A44005B52CB /* CashFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B531F161A44005B52CB /* CashFlowController.m */; };
 		FB4B4B581F161A5D005B52CB /* CashFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B561F161A5D005B52CB /* CashFlowCell.m */; };
 		FB4B4B591F161A5D005B52CB /* CashFlowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B571F161A5D005B52CB /* CashFlowCell.xib */; };
-		FB4B4B5C1F161BDE005B52CB /* RechargeStatementController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B5B1F161BDE005B52CB /* RechargeStatementController.m */; };
-		FB4B4B601F161C0A005B52CB /* RechargeStatementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B5E1F161C0A005B52CB /* RechargeStatementCell.m */; };
-		FB4B4B611F161C0A005B52CB /* RechargeStatementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B4B5F1F161C0A005B52CB /* RechargeStatementCell.xib */; };
 		FB4B4B651F1620D9005B52CB /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B641F1620D9005B52CB /* NetWorkManager.m */; };
 		FB4B4B691F162D8F005B52CB /* AdmoreTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B4B681F162D8F005B52CB /* AdmoreTool.m */; };
 		FB517D241F14DF0500DDAFA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB517D231F14DF0500DDAFA2 /* main.m */; };
 		FB517D271F14DF0500DDAFA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB517D261F14DF0500DDAFA2 /* AppDelegate.m */; };
 		FB517D2F1F14DF0500DDAFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB517D2E1F14DF0500DDAFA2 /* Assets.xcassets */; };
 		FB517D321F14DF0500DDAFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB517D301F14DF0500DDAFA2 /* LaunchScreen.storyboard */; };
+		FB58AB461F1C4F8100AD5B2C /* CensusDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB451F1C4F8100AD5B2C /* CensusDataViewController.m */; };
+		FB58AB491F1C4FA300AD5B2C /* ReceiptReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB481F1C4FA300AD5B2C /* ReceiptReviewViewController.m */; };
+		FB58AB4C1F1C4FC000AD5B2C /* AlreadyOpenReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB4B1F1C4FC000AD5B2C /* AlreadyOpenReceiptViewController.m */; };
+		FB58AB4F1F1C4FE400AD5B2C /* ChargeJournalingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB4E1F1C4FE400AD5B2C /* ChargeJournalingViewController.m */; };
+		FB58AB521F1C505100AD5B2C /* CashStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB511F1C505100AD5B2C /* CashStreamViewController.m */; };
+		FB58AB581F1C515500AD5B2C /* UnsubscribeReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB571F1C515500AD5B2C /* UnsubscribeReviewViewController.m */; };
+		FB58AB5B1F1C51B700AD5B2C /* resourceBuyRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB5A1F1C51B700AD5B2C /* resourceBuyRecordViewController.m */; };
+		FB58AB611F1C523500AD5B2C /* PreOpneReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB601F1C523500AD5B2C /* PreOpneReceiptViewController.m */; };
+		FB58AB641F1C525900AD5B2C /* RespackageConsumeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB631F1C525900AD5B2C /* RespackageConsumeDetailViewController.m */; };
+		FB58AB6A1F1C530E00AD5B2C /* PreOpenReceiptReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB691F1C530E00AD5B2C /* PreOpenReceiptReviewViewController.m */; };
+		FB58AB6D1F1C533800AD5B2C /* SettlementDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB6C1F1C533800AD5B2C /* SettlementDetailViewController.m */; };
+		FB58AB701F1C539100AD5B2C /* PlayPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB6F1F1C539100AD5B2C /* PlayPlanViewController.m */; };
+		FB58AB8E1F1C71C900AD5B2C /* RespackageConsumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB8C1F1C71C900AD5B2C /* RespackageConsumeCell.m */; };
+		FB58AB8F1F1C71C900AD5B2C /* RespackageConsumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB58AB8D1F1C71C900AD5B2C /* RespackageConsumeCell.xib */; };
+		FB58AB931F1C746F00AD5B2C /* ChargeJournalingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB911F1C746F00AD5B2C /* ChargeJournalingCell.m */; };
+		FB58AB941F1C746F00AD5B2C /* ChargeJournalingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB58AB921F1C746F00AD5B2C /* ChargeJournalingCell.xib */; };
+		FB58AB971F1C982800AD5B2C /* NotSettlementGatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB961F1C982800AD5B2C /* NotSettlementGatherViewController.m */; };
+		FB58AB9A1F1C989900AD5B2C /* NotSettlementDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB991F1C989900AD5B2C /* NotSettlementDetailViewController.m */; };
+		FB58AB9D1F1C98B600AD5B2C /* SettlementGatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB9C1F1C98B600AD5B2C /* SettlementGatherViewController.m */; };
+		FB58ABA01F1C98F200AD5B2C /* AgentRebateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58AB9F1F1C98F200AD5B2C /* AgentRebateViewController.m */; };
+		FB7A5A0B1F1DF34C00805E63 /* ReceiptReviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5A091F1DF34C00805E63 /* ReceiptReviewCell.m */; };
+		FB7A5A0C1F1DF34C00805E63 /* ReceiptReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7A5A0A1F1DF34C00805E63 /* ReceiptReviewCell.xib */; };
+		FB7A5A101F1DF46C00805E63 /* RecepitReviewDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5A0E1F1DF46C00805E63 /* RecepitReviewDetailController.m */; };
+		FB7A5A111F1DF46C00805E63 /* RecepitReviewDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7A5A0F1F1DF46C00805E63 /* RecepitReviewDetailController.xib */; };
+		FB7A5A171F1DFA5E00805E63 /* NSObject+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5A161F1DFA5E00805E63 /* NSObject+Init.m */; };
+		FB7A5A1F1F1E094000805E63 /* UIImageView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5A1E1F1E094000805E63 /* UIImageView+Loading.m */; };
+		FB7A5A221F1E0F6000805E63 /* UserCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5A211F1E0F6000805E63 /* UserCenterController.m */; };
+		FB7A5A251F1E14BB00805E63 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5A241F1E14BB00805E63 /* WaveView.m */; };
+		FB822AA21F1A24FD001B8A1E /* LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB822AA01F1A24FD001B8A1E /* LeftController.m */; };
+		FB822AA61F1A2521001B8A1E /* LeftItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB822AA41F1A2521001B8A1E /* LeftItemCell.m */; };
+		FB822AA71F1A2521001B8A1E /* LeftItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB822AA51F1A2521001B8A1E /* LeftItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C9DA1411A1E6D5BB5A15445 /* Pods-DuodianAdmoreWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuodianAdmoreWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-DuodianAdmoreWork/Pods-DuodianAdmoreWork.release.xcconfig"; sourceTree = "<group>"; };
 		2A80A276576F90CA9E643E3B /* Pods-DuodianAdmoreWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuodianAdmoreWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DuodianAdmoreWork/Pods-DuodianAdmoreWork.debug.xcconfig"; sourceTree = "<group>"; };
-		BC33F3B477423D2D3ED8942C /* libPods-DuodianAdmoreWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuodianAdmoreWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF526B5A26AB13C6819C89D /* Pods_DuodianAdmoreWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuodianAdmoreWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3D730C1F172E44001E6D77 /* ColorGradualTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGradualTool.h; sourceTree = "<group>"; };
 		FB3D730D1F172E44001E6D77 /* ColorGradualTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGradualTool.m; sourceTree = "<group>"; };
 		FB3D730F1F1754A5001E6D77 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -86,6 +109,15 @@
 		FB3D73931F185B08001E6D77 /* PerfectInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectInfoView.h; sourceTree = "<group>"; };
 		FB3D73941F185B08001E6D77 /* PerfectInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectInfoView.m; sourceTree = "<group>"; };
 		FB3D73961F185B16001E6D77 /* PerfectInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerfectInfoView.xib; sourceTree = "<group>"; };
+		FB4801251F1CA28E0040E5DC /* EffectDailyRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectDailyRecordViewController.h; sourceTree = "<group>"; };
+		FB4801261F1CA28E0040E5DC /* EffectDailyRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectDailyRecordViewController.m; sourceTree = "<group>"; };
+		FB4801281F1CA2DC0040E5DC /* ReceiptCancelReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptCancelReviewViewController.h; sourceTree = "<group>"; };
+		FB4801291F1CA2DC0040E5DC /* ReceiptCancelReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptCancelReviewViewController.m; sourceTree = "<group>"; };
+		FB48012B1F1CA3030040E5DC /* PlayGeneralizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGeneralizeViewController.h; sourceTree = "<group>"; };
+		FB48012C1F1CA3030040E5DC /* PlayGeneralizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayGeneralizeViewController.m; sourceTree = "<group>"; };
+		FB48012E1F1CA3670040E5DC /* AgentRebateViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentRebateViewCell.h; sourceTree = "<group>"; };
+		FB48012F1F1CA3670040E5DC /* AgentRebateViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentRebateViewCell.m; sourceTree = "<group>"; };
+		FB4801301F1CA3670040E5DC /* AgentRebateViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentRebateViewCell.xib; sourceTree = "<group>"; };
 		FB4B4A9B1F15BAAC005B52CB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		FB4B4A9C1F15BAAC005B52CB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		FB4B4A9E1F15BAC6005B52CB /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
@@ -93,23 +125,11 @@
 		FB4B4AA11F15BB03005B52CB /* ToolMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMacro.h; sourceTree = "<group>"; };
 		FB4B4AA21F15BBC0005B52CB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FB4B4AA71F15BD84005B52CB /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
-		FB4B4AB31F15CEC4005B52CB /* LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftController.h; sourceTree = "<group>"; };
-		FB4B4AB41F15CEC4005B52CB /* LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftController.m; sourceTree = "<group>"; };
 		FB4B4B141F15FF11005B52CB /* InvoiceCancelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceCancelController.h; sourceTree = "<group>"; };
 		FB4B4B151F15FF11005B52CB /* InvoiceCancelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceCancelController.m; sourceTree = "<group>"; };
 		FB4B4B171F15FF31005B52CB /* InvoiceCancelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceCancelCell.h; sourceTree = "<group>"; };
 		FB4B4B181F15FF31005B52CB /* InvoiceCancelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceCancelCell.m; sourceTree = "<group>"; };
 		FB4B4B191F15FF31005B52CB /* InvoiceCancelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvoiceCancelCell.xib; sourceTree = "<group>"; };
-		FB4B4B1C1F1608E9005B52CB /* InvoiceInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceInfoController.h; sourceTree = "<group>"; };
-		FB4B4B1D1F1608E9005B52CB /* InvoiceInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceInfoController.m; sourceTree = "<group>"; };
-		FB4B4B221F16095E005B52CB /* InvoiceInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceInfoCell.h; sourceTree = "<group>"; };
-		FB4B4B231F16095E005B52CB /* InvoiceInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceInfoCell.m; sourceTree = "<group>"; };
-		FB4B4B241F16095E005B52CB /* InvoiceInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvoiceInfoCell.xib; sourceTree = "<group>"; };
-		FB4B4B271F160C97005B52CB /* AgentConsumeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentConsumeController.h; sourceTree = "<group>"; };
-		FB4B4B281F160C97005B52CB /* AgentConsumeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentConsumeController.m; sourceTree = "<group>"; };
-		FB4B4B2A1F160CB7005B52CB /* AgentConsumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentConsumeCell.h; sourceTree = "<group>"; };
-		FB4B4B2B1F160CB7005B52CB /* AgentConsumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentConsumeCell.m; sourceTree = "<group>"; };
-		FB4B4B2C1F160CB7005B52CB /* AgentConsumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentConsumeCell.xib; sourceTree = "<group>"; };
 		FB4B4B2F1F160EA4005B52CB /* WithdrawCheckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithdrawCheckController.h; sourceTree = "<group>"; };
 		FB4B4B301F160EA4005B52CB /* WithdrawCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithdrawCheckController.m; sourceTree = "<group>"; };
 		FB4B4B321F160EC0005B52CB /* WithdrawCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithdrawCheckCell.h; sourceTree = "<group>"; };
@@ -125,21 +145,11 @@
 		FB4B4B451F16147E005B52CB /* PreOpenInvoiceCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreOpenInvoiceCheckCell.h; sourceTree = "<group>"; };
 		FB4B4B461F16147E005B52CB /* PreOpenInvoiceCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreOpenInvoiceCheckCell.m; sourceTree = "<group>"; };
 		FB4B4B471F16147E005B52CB /* PreOpenInvoiceCheckCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreOpenInvoiceCheckCell.xib; sourceTree = "<group>"; };
-		FB4B4B4A1F161620005B52CB /* ResourceConsumeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceConsumeController.h; sourceTree = "<group>"; };
-		FB4B4B4B1F161620005B52CB /* ResourceConsumeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceConsumeController.m; sourceTree = "<group>"; };
-		FB4B4B4D1F161637005B52CB /* ResourceConsumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceConsumeCell.h; sourceTree = "<group>"; };
-		FB4B4B4E1F161637005B52CB /* ResourceConsumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceConsumeCell.m; sourceTree = "<group>"; };
-		FB4B4B4F1F161637005B52CB /* ResourceConsumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceConsumeCell.xib; sourceTree = "<group>"; };
 		FB4B4B521F161A44005B52CB /* CashFlowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashFlowController.h; sourceTree = "<group>"; };
 		FB4B4B531F161A44005B52CB /* CashFlowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashFlowController.m; sourceTree = "<group>"; };
 		FB4B4B551F161A5D005B52CB /* CashFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashFlowCell.h; sourceTree = "<group>"; };
 		FB4B4B561F161A5D005B52CB /* CashFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashFlowCell.m; sourceTree = "<group>"; };
 		FB4B4B571F161A5D005B52CB /* CashFlowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashFlowCell.xib; sourceTree = "<group>"; };
-		FB4B4B5A1F161BDE005B52CB /* RechargeStatementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeStatementController.h; sourceTree = "<group>"; };
-		FB4B4B5B1F161BDE005B52CB /* RechargeStatementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeStatementController.m; sourceTree = "<group>"; };
-		FB4B4B5D1F161C0A005B52CB /* RechargeStatementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeStatementCell.h; sourceTree = "<group>"; };
-		FB4B4B5E1F161C0A005B52CB /* RechargeStatementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeStatementCell.m; sourceTree = "<group>"; };
-		FB4B4B5F1F161C0A005B52CB /* RechargeStatementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RechargeStatementCell.xib; sourceTree = "<group>"; };
 		FB4B4B621F161E52005B52CB /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
 		FB4B4B631F1620D9005B52CB /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
 		FB4B4B641F1620D9005B52CB /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
@@ -152,6 +162,64 @@
 		FB517D2E1F14DF0500DDAFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB517D311F14DF0500DDAFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB517D331F14DF0500DDAFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB58AB441F1C4F8100AD5B2C /* CensusDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CensusDataViewController.h; sourceTree = "<group>"; };
+		FB58AB451F1C4F8100AD5B2C /* CensusDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CensusDataViewController.m; sourceTree = "<group>"; };
+		FB58AB471F1C4FA300AD5B2C /* ReceiptReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptReviewViewController.h; sourceTree = "<group>"; };
+		FB58AB481F1C4FA300AD5B2C /* ReceiptReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptReviewViewController.m; sourceTree = "<group>"; };
+		FB58AB4A1F1C4FC000AD5B2C /* AlreadyOpenReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlreadyOpenReceiptViewController.h; sourceTree = "<group>"; };
+		FB58AB4B1F1C4FC000AD5B2C /* AlreadyOpenReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlreadyOpenReceiptViewController.m; sourceTree = "<group>"; };
+		FB58AB4D1F1C4FE400AD5B2C /* ChargeJournalingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeJournalingViewController.h; sourceTree = "<group>"; };
+		FB58AB4E1F1C4FE400AD5B2C /* ChargeJournalingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChargeJournalingViewController.m; sourceTree = "<group>"; };
+		FB58AB501F1C505100AD5B2C /* CashStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashStreamViewController.h; sourceTree = "<group>"; };
+		FB58AB511F1C505100AD5B2C /* CashStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStreamViewController.m; sourceTree = "<group>"; };
+		FB58AB561F1C515500AD5B2C /* UnsubscribeReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsubscribeReviewViewController.h; sourceTree = "<group>"; };
+		FB58AB571F1C515500AD5B2C /* UnsubscribeReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnsubscribeReviewViewController.m; sourceTree = "<group>"; };
+		FB58AB591F1C51B700AD5B2C /* resourceBuyRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resourceBuyRecordViewController.h; sourceTree = "<group>"; };
+		FB58AB5A1F1C51B700AD5B2C /* resourceBuyRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resourceBuyRecordViewController.m; sourceTree = "<group>"; };
+		FB58AB5F1F1C523500AD5B2C /* PreOpneReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreOpneReceiptViewController.h; sourceTree = "<group>"; };
+		FB58AB601F1C523500AD5B2C /* PreOpneReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreOpneReceiptViewController.m; sourceTree = "<group>"; };
+		FB58AB621F1C525900AD5B2C /* RespackageConsumeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespackageConsumeDetailViewController.h; sourceTree = "<group>"; };
+		FB58AB631F1C525900AD5B2C /* RespackageConsumeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespackageConsumeDetailViewController.m; sourceTree = "<group>"; };
+		FB58AB681F1C530E00AD5B2C /* PreOpenReceiptReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreOpenReceiptReviewViewController.h; sourceTree = "<group>"; };
+		FB58AB691F1C530E00AD5B2C /* PreOpenReceiptReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreOpenReceiptReviewViewController.m; sourceTree = "<group>"; };
+		FB58AB6B1F1C533800AD5B2C /* SettlementDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettlementDetailViewController.h; sourceTree = "<group>"; };
+		FB58AB6C1F1C533800AD5B2C /* SettlementDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettlementDetailViewController.m; sourceTree = "<group>"; };
+		FB58AB6E1F1C539100AD5B2C /* PlayPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayPlanViewController.h; sourceTree = "<group>"; };
+		FB58AB6F1F1C539100AD5B2C /* PlayPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayPlanViewController.m; sourceTree = "<group>"; };
+		FB58AB8B1F1C71C900AD5B2C /* RespackageConsumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespackageConsumeCell.h; sourceTree = "<group>"; };
+		FB58AB8C1F1C71C900AD5B2C /* RespackageConsumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespackageConsumeCell.m; sourceTree = "<group>"; };
+		FB58AB8D1F1C71C900AD5B2C /* RespackageConsumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RespackageConsumeCell.xib; sourceTree = "<group>"; };
+		FB58AB901F1C746F00AD5B2C /* ChargeJournalingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeJournalingCell.h; sourceTree = "<group>"; };
+		FB58AB911F1C746F00AD5B2C /* ChargeJournalingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChargeJournalingCell.m; sourceTree = "<group>"; };
+		FB58AB921F1C746F00AD5B2C /* ChargeJournalingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChargeJournalingCell.xib; sourceTree = "<group>"; };
+		FB58AB951F1C982800AD5B2C /* NotSettlementGatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotSettlementGatherViewController.h; sourceTree = "<group>"; };
+		FB58AB961F1C982800AD5B2C /* NotSettlementGatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotSettlementGatherViewController.m; sourceTree = "<group>"; };
+		FB58AB981F1C989900AD5B2C /* NotSettlementDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotSettlementDetailViewController.h; sourceTree = "<group>"; };
+		FB58AB991F1C989900AD5B2C /* NotSettlementDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotSettlementDetailViewController.m; sourceTree = "<group>"; };
+		FB58AB9B1F1C98B600AD5B2C /* SettlementGatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettlementGatherViewController.h; sourceTree = "<group>"; };
+		FB58AB9C1F1C98B600AD5B2C /* SettlementGatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettlementGatherViewController.m; sourceTree = "<group>"; };
+		FB58AB9E1F1C98F200AD5B2C /* AgentRebateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentRebateViewController.h; sourceTree = "<group>"; };
+		FB58AB9F1F1C98F200AD5B2C /* AgentRebateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentRebateViewController.m; sourceTree = "<group>"; };
+		FB7A5A051F1DC51F00805E63 /* DuodianAdmoreWork-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuodianAdmoreWork-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB7A5A081F1DF34C00805E63 /* ReceiptReviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptReviewCell.h; sourceTree = "<group>"; };
+		FB7A5A091F1DF34C00805E63 /* ReceiptReviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptReviewCell.m; sourceTree = "<group>"; };
+		FB7A5A0A1F1DF34C00805E63 /* ReceiptReviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiptReviewCell.xib; sourceTree = "<group>"; };
+		FB7A5A0D1F1DF46C00805E63 /* RecepitReviewDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecepitReviewDetailController.h; sourceTree = "<group>"; };
+		FB7A5A0E1F1DF46C00805E63 /* RecepitReviewDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecepitReviewDetailController.m; sourceTree = "<group>"; };
+		FB7A5A0F1F1DF46C00805E63 /* RecepitReviewDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecepitReviewDetailController.xib; sourceTree = "<group>"; };
+		FB7A5A151F1DFA5E00805E63 /* NSObject+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Init.h"; sourceTree = "<group>"; };
+		FB7A5A161F1DFA5E00805E63 /* NSObject+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Init.m"; sourceTree = "<group>"; };
+		FB7A5A1D1F1E094000805E63 /* UIImageView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Loading.h"; sourceTree = "<group>"; };
+		FB7A5A1E1F1E094000805E63 /* UIImageView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Loading.m"; sourceTree = "<group>"; };
+		FB7A5A201F1E0F6000805E63 /* UserCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterController.h; sourceTree = "<group>"; };
+		FB7A5A211F1E0F6000805E63 /* UserCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterController.m; sourceTree = "<group>"; };
+		FB7A5A231F1E14BB00805E63 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		FB7A5A241F1E14BB00805E63 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		FB822A9F1F1A24FD001B8A1E /* LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftController.h; sourceTree = "<group>"; };
+		FB822AA01F1A24FD001B8A1E /* LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftController.m; sourceTree = "<group>"; };
+		FB822AA31F1A2521001B8A1E /* LeftItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftItemCell.h; sourceTree = "<group>"; };
+		FB822AA41F1A2521001B8A1E /* LeftItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftItemCell.m; sourceTree = "<group>"; };
+		FB822AA51F1A2521001B8A1E /* LeftItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07296BF4AF499DEACCB00909 /* libPods-DuodianAdmoreWork.a in Frameworks */,
+				A673C1CA463FDCBB004EECC7 /* Pods_DuodianAdmoreWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +246,7 @@
 		B36DFCD3826C60C9A0B54A15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BC33F3B477423D2D3ED8942C /* libPods-DuodianAdmoreWork.a */,
+				4AF526B5A26AB13C6819C89D /* Pods_DuodianAdmoreWork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,6 +279,10 @@
 			children = (
 				FB3D730F1F1754A5001E6D77 /* UIBarButtonItem+Extension.h */,
 				FB3D73101F1754A5001E6D77 /* UIBarButtonItem+Extension.m */,
+				FB7A5A151F1DFA5E00805E63 /* NSObject+Init.h */,
+				FB7A5A161F1DFA5E00805E63 /* NSObject+Init.m */,
+				FB7A5A1D1F1E094000805E63 /* UIImageView+Loading.h */,
+				FB7A5A1E1F1E094000805E63 /* UIImageView+Loading.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -285,6 +357,8 @@
 			children = (
 				FB3D73261F1770AA001E6D77 /* EntranceController.h */,
 				FB3D73271F1770AA001E6D77 /* EntranceController.m */,
+				FB7A5A201F1E0F6000805E63 /* UserCenterController.h */,
+				FB7A5A211F1E0F6000805E63 /* UserCenterController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -311,6 +385,8 @@
 				FB3D73931F185B08001E6D77 /* PerfectInfoView.h */,
 				FB3D73941F185B08001E6D77 /* PerfectInfoView.m */,
 				FB3D73961F185B16001E6D77 /* PerfectInfoView.xib */,
+				FB7A5A231F1E14BB00805E63 /* WaveView.h */,
+				FB7A5A241F1E14BB00805E63 /* WaveView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,8 +394,8 @@
 		FB4B4AB21F15CEB7005B52CB /* Left */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4AB31F15CEC4005B52CB /* LeftController.h */,
-				FB4B4AB41F15CEC4005B52CB /* LeftController.m */,
+				FB822A9E1F1A24FD001B8A1E /* Controller */,
+				FB822AA11F1A24FD001B8A1E /* View */,
 			);
 			path = Left;
 			sourceTree = "<group>";
@@ -366,6 +442,8 @@
 		FB4B4ABD1F15FC74005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB441F1C4F8100AD5B2C /* CensusDataViewController.h */,
+				FB58AB451F1C4F8100AD5B2C /* CensusDataViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -397,6 +475,8 @@
 		FB4B4AC11F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB951F1C982800AD5B2C /* NotSettlementGatherViewController.h */,
+				FB58AB961F1C982800AD5B2C /* NotSettlementGatherViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -428,6 +508,8 @@
 		FB4B4AC51F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB981F1C989900AD5B2C /* NotSettlementDetailViewController.h */,
+				FB58AB991F1C989900AD5B2C /* NotSettlementDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -459,8 +541,8 @@
 		FB4B4AC91F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B5A1F161BDE005B52CB /* RechargeStatementController.h */,
-				FB4B4B5B1F161BDE005B52CB /* RechargeStatementController.m */,
+				FB58AB4D1F1C4FE400AD5B2C /* ChargeJournalingViewController.h */,
+				FB58AB4E1F1C4FE400AD5B2C /* ChargeJournalingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,9 +557,9 @@
 		FB4B4ACB1F15FE3E005B52CB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B5D1F161C0A005B52CB /* RechargeStatementCell.h */,
-				FB4B4B5E1F161C0A005B52CB /* RechargeStatementCell.m */,
-				FB4B4B5F1F161C0A005B52CB /* RechargeStatementCell.xib */,
+				FB58AB901F1C746F00AD5B2C /* ChargeJournalingCell.h */,
+				FB58AB911F1C746F00AD5B2C /* ChargeJournalingCell.m */,
+				FB58AB921F1C746F00AD5B2C /* ChargeJournalingCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -495,8 +577,8 @@
 		FB4B4ACD1F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B271F160C97005B52CB /* AgentConsumeController.h */,
-				FB4B4B281F160C97005B52CB /* AgentConsumeController.m */,
+				FB58AB9E1F1C98F200AD5B2C /* AgentRebateViewController.h */,
+				FB58AB9F1F1C98F200AD5B2C /* AgentRebateViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -511,9 +593,9 @@
 		FB4B4ACF1F15FE3E005B52CB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B2A1F160CB7005B52CB /* AgentConsumeCell.h */,
-				FB4B4B2B1F160CB7005B52CB /* AgentConsumeCell.m */,
-				FB4B4B2C1F160CB7005B52CB /* AgentConsumeCell.xib */,
+				FB48012E1F1CA3670040E5DC /* AgentRebateViewCell.h */,
+				FB48012F1F1CA3670040E5DC /* AgentRebateViewCell.m */,
+				FB4801301F1CA3670040E5DC /* AgentRebateViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -531,8 +613,11 @@
 		FB4B4AD11F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B1C1F1608E9005B52CB /* InvoiceInfoController.h */,
-				FB4B4B1D1F1608E9005B52CB /* InvoiceInfoController.m */,
+				FB58AB471F1C4FA300AD5B2C /* ReceiptReviewViewController.h */,
+				FB58AB481F1C4FA300AD5B2C /* ReceiptReviewViewController.m */,
+				FB7A5A0D1F1DF46C00805E63 /* RecepitReviewDetailController.h */,
+				FB7A5A0E1F1DF46C00805E63 /* RecepitReviewDetailController.m */,
+				FB7A5A0F1F1DF46C00805E63 /* RecepitReviewDetailController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -547,9 +632,9 @@
 		FB4B4AD31F15FE3E005B52CB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B221F16095E005B52CB /* InvoiceInfoCell.h */,
-				FB4B4B231F16095E005B52CB /* InvoiceInfoCell.m */,
-				FB4B4B241F16095E005B52CB /* InvoiceInfoCell.xib */,
+				FB7A5A081F1DF34C00805E63 /* ReceiptReviewCell.h */,
+				FB7A5A091F1DF34C00805E63 /* ReceiptReviewCell.m */,
+				FB7A5A0A1F1DF34C00805E63 /* ReceiptReviewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -569,6 +654,8 @@
 			children = (
 				FB4B4B141F15FF11005B52CB /* InvoiceCancelController.h */,
 				FB4B4B151F15FF11005B52CB /* InvoiceCancelController.m */,
+				FB4801281F1CA2DC0040E5DC /* ReceiptCancelReviewViewController.h */,
+				FB4801291F1CA2DC0040E5DC /* ReceiptCancelReviewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -701,6 +788,8 @@
 		FB4B4AE51F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB9B1F1C98B600AD5B2C /* SettlementGatherViewController.h */,
+				FB58AB9C1F1C98B600AD5B2C /* SettlementGatherViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -732,6 +821,8 @@
 		FB4B4AE91F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB6B1F1C533800AD5B2C /* SettlementDetailViewController.h */,
+				FB58AB6C1F1C533800AD5B2C /* SettlementDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -765,6 +856,8 @@
 			children = (
 				FB4B4B521F161A44005B52CB /* CashFlowController.h */,
 				FB4B4B531F161A44005B52CB /* CashFlowController.m */,
+				FB58AB501F1C505100AD5B2C /* CashStreamViewController.h */,
+				FB58AB511F1C505100AD5B2C /* CashStreamViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -799,6 +892,8 @@
 		FB4B4AF11F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB4801251F1CA28E0040E5DC /* EffectDailyRecordViewController.h */,
+				FB4801261F1CA28E0040E5DC /* EffectDailyRecordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -830,6 +925,8 @@
 		FB4B4AF51F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB4A1F1C4FC000AD5B2C /* AlreadyOpenReceiptViewController.h */,
+				FB58AB4B1F1C4FC000AD5B2C /* AlreadyOpenReceiptViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -861,6 +958,8 @@
 		FB4B4AF91F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB5F1F1C523500AD5B2C /* PreOpneReceiptViewController.h */,
+				FB58AB601F1C523500AD5B2C /* PreOpneReceiptViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -894,6 +993,8 @@
 			children = (
 				FB4B4B3F1F16144D005B52CB /* PreOpenInvoiceCheckController.h */,
 				FB4B4B401F16144D005B52CB /* PreOpenInvoiceCheckController.m */,
+				FB58AB681F1C530E00AD5B2C /* PreOpenReceiptReviewViewController.h */,
+				FB58AB691F1C530E00AD5B2C /* PreOpenReceiptReviewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -928,6 +1029,8 @@
 		FB4B4B011F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB591F1C51B700AD5B2C /* resourceBuyRecordViewController.h */,
+				FB58AB5A1F1C51B700AD5B2C /* resourceBuyRecordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -961,6 +1064,8 @@
 			children = (
 				FB4B4B371F1611AF005B52CB /* ResourceUnsubscribeCheckController.h */,
 				FB4B4B381F1611AF005B52CB /* ResourceUnsubscribeCheckController.m */,
+				FB58AB561F1C515500AD5B2C /* UnsubscribeReviewViewController.h */,
+				FB58AB571F1C515500AD5B2C /* UnsubscribeReviewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -995,8 +1100,8 @@
 		FB4B4B091F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B4A1F161620005B52CB /* ResourceConsumeController.h */,
-				FB4B4B4B1F161620005B52CB /* ResourceConsumeController.m */,
+				FB58AB621F1C525900AD5B2C /* RespackageConsumeDetailViewController.h */,
+				FB58AB631F1C525900AD5B2C /* RespackageConsumeDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1011,9 +1116,9 @@
 		FB4B4B0B1F15FE3E005B52CB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B4B4D1F161637005B52CB /* ResourceConsumeCell.h */,
-				FB4B4B4E1F161637005B52CB /* ResourceConsumeCell.m */,
-				FB4B4B4F1F161637005B52CB /* ResourceConsumeCell.xib */,
+				FB58AB8B1F1C71C900AD5B2C /* RespackageConsumeCell.h */,
+				FB58AB8C1F1C71C900AD5B2C /* RespackageConsumeCell.m */,
+				FB58AB8D1F1C71C900AD5B2C /* RespackageConsumeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1031,6 +1136,8 @@
 		FB4B4B0D1F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB58AB6E1F1C539100AD5B2C /* PlayPlanViewController.h */,
+				FB58AB6F1F1C539100AD5B2C /* PlayPlanViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1062,6 +1169,8 @@
 		FB4B4B111F15FE3E005B52CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB48012B1F1CA3030040E5DC /* PlayGeneralizeViewController.h */,
+				FB48012C1F1CA3030040E5DC /* PlayGeneralizeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1131,8 +1240,28 @@
 			children = (
 				FB517D231F14DF0500DDAFA2 /* main.m */,
 				FB4B4AA21F15BBC0005B52CB /* PrefixHeader.pch */,
+				FB7A5A051F1DC51F00805E63 /* DuodianAdmoreWork-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB822A9E1F1A24FD001B8A1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB822A9F1F1A24FD001B8A1E /* LeftController.h */,
+				FB822AA01F1A24FD001B8A1E /* LeftController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB822AA11F1A24FD001B8A1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB822AA31F1A2521001B8A1E /* LeftItemCell.h */,
+				FB822AA41F1A2521001B8A1E /* LeftItemCell.m */,
+				FB822AA51F1A2521001B8A1E /* LeftItemCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1169,6 +1298,7 @@
 				TargetAttributes = {
 					FB517D1E1F14DF0500DDAFA2 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1200,18 +1330,20 @@
 				FB4B4B591F161A5D005B52CB /* CashFlowCell.xib in Resources */,
 				FB3D73201F176D0A001E6D77 /* LoginView.xib in Resources */,
 				FB517D321F14DF0500DDAFA2 /* LaunchScreen.storyboard in Resources */,
+				FB7A5A0C1F1DF34C00805E63 /* ReceiptReviewCell.xib in Resources */,
 				FB3D73971F185B16001E6D77 /* PerfectInfoView.xib in Resources */,
 				FB3D732D1F177E79001E6D77 /* ForgetPwdView.xib in Resources */,
+				FB822AA71F1A2521001B8A1E /* LeftItemCell.xib in Resources */,
 				FB4B4B361F160EC0005B52CB /* WithdrawCheckCell.xib in Resources */,
-				FB4B4B611F161C0A005B52CB /* RechargeStatementCell.xib in Resources */,
 				FB4B4B1B1F15FF31005B52CB /* InvoiceCancelCell.xib in Resources */,
-				FB4B4B511F161637005B52CB /* ResourceConsumeCell.xib in Resources */,
+				FB58AB8F1F1C71C900AD5B2C /* RespackageConsumeCell.xib in Resources */,
+				FB7A5A111F1DF46C00805E63 /* RecepitReviewDetailController.xib in Resources */,
 				FB4B4B491F16147E005B52CB /* PreOpenInvoiceCheckCell.xib in Resources */,
-				FB4B4B2E1F160CB7005B52CB /* AgentConsumeCell.xib in Resources */,
 				FB517D2F1F14DF0500DDAFA2 /* Assets.xcassets in Resources */,
+				FB58AB941F1C746F00AD5B2C /* ChargeJournalingCell.xib in Resources */,
 				FB3D73251F176D34001E6D77 /* RegisterView.xib in Resources */,
 				FB4B4AA81F15BD84005B52CB /* User.storyboard in Resources */,
-				FB4B4B261F16095E005B52CB /* InvoiceInfoCell.xib in Resources */,
+				FB4801321F1CA3670040E5DC /* AgentRebateViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1271,36 +1403,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3D73951F185B08001E6D77 /* PerfectInfoView.m in Sources */,
-				FB4B4B4C1F161620005B52CB /* ResourceConsumeController.m in Sources */,
+				FB58AB8E1F1C71C900AD5B2C /* RespackageConsumeCell.m in Sources */,
+				FB58AB5B1F1C51B700AD5B2C /* resourceBuyRecordViewController.m in Sources */,
+				FB7A5A171F1DFA5E00805E63 /* NSObject+Init.m in Sources */,
+				FB58AB4C1F1C4FC000AD5B2C /* AlreadyOpenReceiptViewController.m in Sources */,
 				FB4B4AA01F15BAC6005B52CB /* BaseNavController.m in Sources */,
-				FB4B4B601F161C0A005B52CB /* RechargeStatementCell.m in Sources */,
-				FB4B4B5C1F161BDE005B52CB /* RechargeStatementController.m in Sources */,
 				FB3D73281F1770AA001E6D77 /* EntranceController.m in Sources */,
+				FB58AB9A1F1C989900AD5B2C /* NotSettlementDetailViewController.m in Sources */,
 				FB4B4B541F161A44005B52CB /* CashFlowController.m in Sources */,
-				FB4B4B251F16095E005B52CB /* InvoiceInfoCell.m in Sources */,
+				FB58AB6D1F1C533800AD5B2C /* SettlementDetailViewController.m in Sources */,
+				FB822AA21F1A24FD001B8A1E /* LeftController.m in Sources */,
 				FB3D730E1F172E44001E6D77 /* ColorGradualTool.m in Sources */,
-				FB4B4AB51F15CEC4005B52CB /* LeftController.m in Sources */,
+				FB58AB701F1C539100AD5B2C /* PlayPlanViewController.m in Sources */,
 				FB4B4B481F16147E005B52CB /* PreOpenInvoiceCheckCell.m in Sources */,
+				FB58AB461F1C4F8100AD5B2C /* CensusDataViewController.m in Sources */,
+				FB7A5A221F1E0F6000805E63 /* UserCenterController.m in Sources */,
+				FB58AB581F1C515500AD5B2C /* UnsubscribeReviewViewController.m in Sources */,
 				FB4B4B691F162D8F005B52CB /* AdmoreTool.m in Sources */,
 				FB4B4B651F1620D9005B52CB /* NetWorkManager.m in Sources */,
+				FB58AB971F1C982800AD5B2C /* NotSettlementGatherViewController.m in Sources */,
+				FB58AB931F1C746F00AD5B2C /* ChargeJournalingCell.m in Sources */,
+				FB7A5A251F1E14BB00805E63 /* WaveView.m in Sources */,
 				FB4B4A9D1F15BAAC005B52CB /* BaseViewController.m in Sources */,
-				FB4B4B2D1F160CB7005B52CB /* AgentConsumeCell.m in Sources */,
+				FB58AB611F1C523500AD5B2C /* PreOpneReceiptViewController.m in Sources */,
+				FB58AB6A1F1C530E00AD5B2C /* PreOpenReceiptReviewViewController.m in Sources */,
+				FB58AB641F1C525900AD5B2C /* RespackageConsumeDetailViewController.m in Sources */,
 				FB4B4B1A1F15FF31005B52CB /* InvoiceCancelCell.m in Sources */,
 				FB3D73921F1856A6001E6D77 /* DDTextField.m in Sources */,
+				FB58AB491F1C4FA300AD5B2C /* ReceiptReviewViewController.m in Sources */,
+				FB48012D1F1CA3030040E5DC /* PlayGeneralizeViewController.m in Sources */,
+				FB58AB4F1F1C4FE400AD5B2C /* ChargeJournalingViewController.m in Sources */,
 				FB4B4B351F160EC0005B52CB /* WithdrawCheckCell.m in Sources */,
 				FB4B4B311F160EA4005B52CB /* WithdrawCheckController.m in Sources */,
 				FB4B4B3D1F1611EB005B52CB /* ResourceUnsubscribeCheckCell.m in Sources */,
 				FB4B4B161F15FF11005B52CB /* InvoiceCancelController.m in Sources */,
-				FB4B4B1E1F1608E9005B52CB /* InvoiceInfoController.m in Sources */,
 				FB517D271F14DF0500DDAFA2 /* AppDelegate.m in Sources */,
 				FB3D73111F1754A5001E6D77 /* UIBarButtonItem+Extension.m in Sources */,
-				FB4B4B291F160C97005B52CB /* AgentConsumeController.m in Sources */,
+				FB7A5A0B1F1DF34C00805E63 /* ReceiptReviewCell.m in Sources */,
+				FB7A5A101F1DF46C00805E63 /* RecepitReviewDetailController.m in Sources */,
+				FB4801311F1CA3670040E5DC /* AgentRebateViewCell.m in Sources */,
 				FB3D73181F17628C001E6D77 /* AutoCodeView.m in Sources */,
+				FB822AA61F1A2521001B8A1E /* LeftItemCell.m in Sources */,
+				FB58AB521F1C505100AD5B2C /* CashStreamViewController.m in Sources */,
 				FB517D241F14DF0500DDAFA2 /* main.m in Sources */,
+				FB4801271F1CA28E0040E5DC /* EffectDailyRecordViewController.m in Sources */,
 				FB4B4B581F161A5D005B52CB /* CashFlowCell.m in Sources */,
+				FB7A5A1F1F1E094000805E63 /* UIImageView+Loading.m in Sources */,
+				FB58ABA01F1C98F200AD5B2C /* AgentRebateViewController.m in Sources */,
+				FB48012A1F1CA2DC0040E5DC /* ReceiptCancelReviewViewController.m in Sources */,
 				FB3D731E1F176CFE001E6D77 /* LoginView.m in Sources */,
-				FB4B4B501F161637005B52CB /* ResourceConsumeCell.m in Sources */,
 				FB3D732B1F177E6A001E6D77 /* ForgetPwdView.m in Sources */,
+				FB58AB9D1F1C98B600AD5B2C /* SettlementGatherViewController.m in Sources */,
 				FB4B4B391F1611AF005B52CB /* ResourceUnsubscribeCheckController.m in Sources */,
 				FB4B4B411F16144D005B52CB /* PreOpenInvoiceCheckController.m in Sources */,
 				FB3D73231F176D22001E6D77 /* RegisterView.m in Sources */,
@@ -1416,6 +1569,7 @@
 			baseConfigurationReference = 2A80A276576F90CA9E643E3B /* Pods-DuodianAdmoreWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = DuodianAdmoreWork/PrefixHeader.pch;
@@ -1426,6 +1580,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DuodianAdmoreWork/DuodianAdmoreWork-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1434,6 +1591,7 @@
 			baseConfigurationReference = 1C9DA1411A1E6D5BB5A15445 /* Pods-DuodianAdmoreWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = DuodianAdmoreWork/PrefixHeader.pch;
@@ -1443,6 +1601,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DuodianAdmoreWork/DuodianAdmoreWork-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

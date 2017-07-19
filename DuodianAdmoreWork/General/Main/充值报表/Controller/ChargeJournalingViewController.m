@@ -1,19 +1,19 @@
 //
-//  AgentConsumeController.m
+//  ChargeJournalingViewController.m
 //  DuodianAdmoreWork
 //
-//  Created by duodian on 2017/7/12.
+//  Created by duodian on 2017/7/17.
 //  Copyright © 2017年 duodian. All rights reserved.
 //
 
-#import "AgentConsumeController.h"
-#import "AgentConsumeCell.h"
+#import "ChargeJournalingViewController.h"
+#import "ChargeJournalingCell.h"
 
-@interface AgentConsumeController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ChargeJournalingViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @end
 
-@implementation AgentConsumeController
+@implementation ChargeJournalingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,7 +27,7 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.tableFooterView = [UIView new];
-        [_tableView registerNib:[UINib nibWithNibName:@"AgentConsumeCell" bundle:nil] forCellReuseIdentifier:@"cell"];
+        [_tableView registerNib:[UINib nibWithNibName:@"ChargeJournalingCell" bundle:nil] forCellReuseIdentifier:@"cell"];
     }
     return _tableView;
 }
@@ -38,7 +38,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    AgentConsumeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    ChargeJournalingCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     return cell;
 }
 

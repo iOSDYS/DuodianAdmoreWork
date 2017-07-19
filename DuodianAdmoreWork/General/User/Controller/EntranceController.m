@@ -14,6 +14,7 @@
 #import "BaseNavController.h"
 #import "MMDrawerController.h"
 #import "LeftController.h"
+#import "ResourceUnsubscribeCheckController.h"
 
 @interface EntranceController ()
 @property (nonatomic,strong) LoginView *loginView;
@@ -66,7 +67,7 @@
         
         _loginView.loginBlock = ^{
             [SVProgressHUD showWithStatus:@"正在登陆"];
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [SVProgressHUD dismiss];
                 [ws initVC];
             });
@@ -152,7 +153,7 @@
     
     
     BaseNavController *leftNav = [[BaseNavController alloc] initWithRootViewController:[[LeftController alloc] init]];
-    MMDrawerController *drawVC = [[MMDrawerController alloc] initWithCenterViewController:[[BaseNavController alloc] initWithRootViewController:[[BaseViewController alloc] init]] leftDrawerViewController:leftNav];
+    MMDrawerController *drawVC = [[MMDrawerController alloc] initWithCenterViewController:[[BaseNavController alloc] initWithRootViewController:[[ResourceUnsubscribeCheckController alloc] init]] leftDrawerViewController:leftNav];
     drawVC.maximumLeftDrawerWidth = SCREEN_WIDTH*2/3;
     [drawVC setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
     [drawVC setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];

@@ -19,8 +19,11 @@
     [super viewDidLoad];
     
     self.navigationBar.barTintColor = [UIColor colorWithHexString:@"6FD2FA"];
-//    self.navigationBar.translucent = YES;
-//    [[ColorGradualTool shareInstance] setGradientBGColorWithView:self.navigationBar frame:CGRectMake(0, -20, SCREEN_WIDTH, 64) LeftColor  rightColor:[UIColor colorWithHexString:@"60B0F8"]];
+//    self.navigationBar.barTintColor = [UIColor clearColor];
+    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:17]};
+     
+    self.navigationBar.translucent = YES;
+//    [[ColorGradualTool shareInstance] setGradientBGColorWithView:self.navigationBar frame:CGRectMake(0, -20, SCREEN_WIDTH, 64) LeftColor:[UIColor colorWithHexString:@"6FD2FA"] rightColor:[UIColor colorWithHexString:@"60B0F8"]];
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {

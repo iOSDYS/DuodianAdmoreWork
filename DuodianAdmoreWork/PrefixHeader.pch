@@ -9,11 +9,14 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import <YYKit.h>
+#import <YYKit/YYKit.h>
 #import "ToolMacro.h"
 #import "AppMacro.h"
-#import <SVProgressHUD.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 #import "NetWorkManager.h"
 #import "ColorGradualTool.h"
+#import "DuodianAdmoreWork-Bridging-Header.h"
+#import "NSObject+Init.h"
+#import "UIImageView+Loading.h"
 
 #endif /* PrefixHeader_pch */

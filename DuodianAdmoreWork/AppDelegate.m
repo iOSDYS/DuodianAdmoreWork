@@ -40,6 +40,8 @@
     drawVC.maximumLeftDrawerWidth = SCREEN_WIDTH*2/3;
     [drawVC setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
     [drawVC setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    [drawVC setShowsShadow:YES];
+    [drawVC setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
     self.window.rootViewController = drawVC;
 }
 

@@ -11,8 +11,7 @@
 #import <Masonry/Masonry.h>
 
 @interface UserCenterController ()<UITableViewDelegate,UITableViewDataSource>
-@property (nonatomic,strong)WaveView *firstWare;
-@property (nonatomic,strong)WaveView *secondWare;
+@property (nonatomic,strong)WaveView *wave;
 @property (nonatomic,strong)UIView *headView;
 @property (nonatomic,strong) UIImageView *headIconImg;
 @property (nonatomic,strong) UILabel *nameLabel;
@@ -40,14 +39,10 @@
 - (UIView *)headView {
     if (!_headView) {
         _headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200)];
-        self.firstWare = [[WaveView alloc]initWithFrame:_headView.bounds andMath:Cos];
-        self.secondWare = [[WaveView alloc]initWithFrame:_headView.bounds andMath:Sin];
-//        [[ColorGradualTool shareInstance] setGradientBGColorWithView:self.firstWare frame:_firstWare.bounds TopColor:[UIColor redColor] bottomColor:[UIColor yellowColor]];
-//        [[ColorGradualTool shareInstance] setGradientBGColorWithView:_secondWare frame:_secondWare.bounds TopColor:[UIColor redColor] bottomColor:[UIColor yellowColor]];
-        [[ColorGradualTool shareInstance] setGradientBGColorWithView:self.firstWare frame:_firstWare.bounds LeftColor:[UIColor redColor] rightColor:[UIColor yellowColor]];
-        [[ColorGradualTool shareInstance] setGradientBGColorWithView:self.secondWare frame:_firstWare.bounds LeftColor:[UIColor redColor] rightColor:[UIColor yellowColor]];
-        [_headView addSubview:self.firstWare];
-        [_headView addSubview:self.secondWare];
+        [[ColorGradualTool shareInstance] setGradientBGColorWithView:_headView frame:_headView.bounds TopColor:[UIColor colorWithHexString:@"ed612a"] bottomColor:[UIColor colorWithHexString:@"ec4225"]];
+        
+        self.wave = [[WaveView alloc] initWithFrame:CGRectMake(0, 190, _headView.width, 10)];
+        [_headView addSubview:self.wave];
         UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         backBtn.frame = CGRectMake(16, 30, 24, 24);
         [backBtn addTarget:self action:@selector(backClicked) forControlEvents:UIControlEventTouchUpInside];
@@ -97,12 +92,14 @@
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.tableHeaderView = self.headView;
+        _tableView.bounces = NO;
+        _tableView.showsVerticalScrollIndicator = NO;
     }
     return _tableView;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return 20;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

@@ -150,18 +150,16 @@
 }
 
 - (void)initVC {
-    
-    
     BaseNavController *leftNav = [[BaseNavController alloc] initWithRootViewController:[[LeftController alloc] init]];
     MMDrawerController *drawVC = [[MMDrawerController alloc] initWithCenterViewController:[[BaseNavController alloc] initWithRootViewController:[[ResourceUnsubscribeCheckController alloc] init]] leftDrawerViewController:leftNav];
     drawVC.maximumLeftDrawerWidth = SCREEN_WIDTH*2/3;
     [drawVC setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
     [drawVC setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
-    
+    [drawVC setShowsShadow:YES];
+    [drawVC setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+
     typedef void (^Animation)(void);
-    UIWindow* window = [UIApplication sharedApplication].keyWindow;
-    
-//    drawVC.modalTransitionStyle = 2;
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
     drawVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     Animation animation = ^{
         BOOL oldState = [UIView areAnimationsEnabled];

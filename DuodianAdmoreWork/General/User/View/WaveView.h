@@ -7,11 +7,5 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef enum {
-    Cos,
-    Sin,
-} Math;
-
 @interface WaveView : UIView
-- (instancetype)initWithFrame:(CGRect)frame andMath:(Math)math;
 @end

@@ -77,6 +77,18 @@
         [_headView addSubview:toolBar];
         
         _headIconImg = [[UIImageView alloc] init] ;
+        _headIconImg.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithActionBlock:^(id  _Nonnull sender) {
+            UserCenterController *vc = [[UserCenterController alloc] init];
+            BaseNavController *nav = (BaseNavController *)self.mm_drawerController.centerViewController;
+            [nav pushViewController:vc animated:YES];
+            [self.mm_drawerController closeDrawerAnimated:YES completion:^(BOOL finished) {
+                //设置打开抽屉模式为MMOpenDrawerGestureModeNone，也就是没有任何效果。
+                //        [self.mm_drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeNone];
+            }];
+
+        }];
+        [_headIconImg addGestureRecognizer:tap];
         _headIconImg.image = [UIImage imageNamed:@"tu"];
         [_headView addSubview:_headIconImg];
         [_headIconImg mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -131,15 +143,15 @@
     NSDictionary *dict = _titleArray[indexPath.row];
     NSString *url = dict[@"url"];
     NSRange range = [url rangeOfString:@"_"];
-//    BaseViewController *vc = (BaseViewController *)[[NSClassFromString([url substringFromIndex:range.location + 1]) alloc] init];
-//    vc.title = dict[@"name"];
-    UserCenterController *vc = [[UserCenterController alloc] init];
+    BaseViewController *vc = (BaseViewController *)[[NSClassFromString([url substringFromIndex:range.location + 1]) alloc] init];
+    vc.title = dict[@"name"];
     BaseNavController *nav = (BaseNavController *)self.mm_drawerController.centerViewController;
-    [nav pushViewController:vc animated:YES];
     [self.mm_drawerController closeDrawerAnimated:YES completion:^(BOOL finished) {
         //设置打开抽屉模式为MMOpenDrawerGestureModeNone，也就是没有任何效果。
-//        [self.mm_drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeNone];
+        [self.mm_drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeNone];
     }];
+    [nav pushViewController:vc animated:YES];
+    
 }
 
 @end

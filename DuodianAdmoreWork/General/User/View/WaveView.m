@@ -7,138 +7,135 @@
 //
 
 #import "WaveView.h"
+//#define ScreenRect [[UIScreen mainScreen] bounds]
+
 @interface WaveView ()
-@property (nonatomic,strong)CADisplayLink *wavesDisplayLink;
+/**
+ *  绘制层
+ */
+@property (nonatomic, strong) CAShapeLayer *shapeLayer;
 
-@property (nonatomic,strong)CAShapeLayer *secondWavesLayer;
+/**
+ *  重绘定时器
+ */
+@property (nonatomic, strong) CADisplayLink *displayLink;
 
-@property (nonatomic,strong)UIColor *secondWavesColor;
+/**
+ *  水波的高度
+ */
+@property (nonatomic, assign) CGFloat waterWaveHeight;
 
-@property (nonatomic,assign)Math math;
+/**
+ *  Y 轴方向的缩放
+ */
+@property (nonatomic, assign) CGFloat zoomY;
+
+/**
+ *  X 轴方向的平移
+ */
+@property (nonatomic, assign) CGFloat translateX;
+
+
+@property (nonatomic, assign) BOOL flag;
 @end
 
 @implementation WaveView
-{
-    CGFloat waveA;//水纹振幅
-    CGFloat waveW ;//水纹周期
-    CGFloat offsetX; //位移
-    CGFloat currentK; //当前波浪高度Y
-    CGFloat wavesSpeed;//水纹速度
-    CGFloat WavesWidth; //水纹宽度
-}
 
-- (instancetype)initWithFrame:(CGRect)frame andMath:(Math)math {
+- (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        _math = math;
-        self.backgroundColor = [UIColor clearColor];
-        self.layer.masksToBounds = YES;
-        self.alpha = 0.6;
-        [self setUpWaves];
+        [self commitInit];
+        
+        [self addShapeLayer];
+        
+        [self startDisplayLink];
     }
     return self;
 }
 
-- (void)setUpWaves{
-    
-    //设置波浪的宽度
-    WavesWidth = self.frame.size.width;
-    
-    //第二个波浪颜色
-    self.secondWavesColor = [UIColor colorWithRed:86/255.0f green:202/255.0f blue:139/255.0f alpha:1];
-    
-    //设置波浪的速度
-    wavesSpeed = 1/M_PI;
-    
-    //初始化layer
-    if (self.secondWavesLayer == nil) {
-        
-        //初始化
-        self.secondWavesLayer = [CAShapeLayer layer];
-        //设置闭环的颜色
-        self.secondWavesLayer.fillColor = self.secondWavesColor.CGColor;
-        //设置边缘线的颜色
-//        _firstWaveLayer.strokeColor = [UIColor blueColor].CGColor;
-        //设置边缘线的宽度
-        //self.firstWavesLayer.lineWidth = 1.0;
-        //        self.firstWavesLayer.strokeStart = 0.0;
-        //        self.firstWavesLayer.strokeEnd = 0.8;
-        
-        [self.layer addSublayer:self.secondWavesLayer];
-    }
-    
-    
-    //同正弦函数相同,无交错效果
-    //wavesSpeed = 0.02;
-    //设置振幅
-    //waveA = 12;
-    //设置周期
-    //waveW = 0.5/30.0;
-    
-    //同正弦函数不同,会有交错效果
-    //设置波浪流动速度
-    wavesSpeed = 0.04;
-    //设置振幅
-    waveA = 5;
-    //设置周期
-    waveW = 0.3/30.0;
-    
-    
-    //设置波浪纵向位置
-    currentK = self.frame.size.height;//屏幕居中
-    
-    //启动定时器
-    self.wavesDisplayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(getCurrentWave:)];
-    
-    [self.wavesDisplayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
-}
-
--(void)getCurrentWave:(CADisplayLink *)displayLink{
-    //实时的位移
-    offsetX += wavesSpeed;
-    
-    [self setCurrentFirstWaveLayerPath];
-}
-
--(void)setCurrentFirstWaveLayerPath{
-    
-    //创建一个路径
-    CGMutablePathRef path = CGPathCreateMutable();
-    
-    CGFloat y = currentK;
-    //将点移动到 x=0,y=currentK的位置
-    CGPathMoveToPoint(path, nil, 0, y);
-    
-    for (NSInteger i = 0.0f; i <= WavesWidth; i++) {
-        //余弦函数波浪公式
-        if (_math == Cos) {
-            y = waveA * cos(waveW*i + offsetX)+currentK;
-        }else{
-            y = waveA * sin(waveW * i+ offsetX)+currentK;
-        }
-        
-        //如果需要正弦函数的峰顶和余弦函数的峰底对应,可以替换成下方公式均可
-        //y = waveA * cos(waveW*i + offsetX+M_PI_2)+currentK;
-        
-        //y = waveA * sin(-(waveW*i + offsetX))+currentK;
-        
-        //将点连成线
-        CGPathAddLineToPoint(path, nil, i, y);
-    }
-    
-    CGPathAddLineToPoint(path, nil, WavesWidth, 0);
-    CGPathAddLineToPoint(path, nil, 0, 0);
-    
-    CGPathCloseSubpath(path);
-    self.secondWavesLayer.path = path;
-    
-    //使用layer 而没用CurrentContext
-    CGPathRelease(path);
-    
-}
-
--(void)dealloc
+// 初始化数据
+- (void)commitInit
 {
-    [self.wavesDisplayLink invalidate];
+    // 水波高度
+    self.waterWaveHeight = self.height / 2;
+    
+    self.zoomY = 1.0f;
+    self.translateX = 0.0f;
+    self.flag = NO;
+}
+
+- (void)addShapeLayer
+{
+    self.shapeLayer = [CAShapeLayer layer];
+    
+    // 绘制的路径
+    self.shapeLayer.path = [self waterWavePath];
+    // 填充的颜色
+    self.shapeLayer.fillColor = [[UIColor whiteColor] CGColor];
+    // 路径线条的颜色
+//    self.shapeLayer.lineWidth = 0.1;
+    // 路径线条的颜色
+//    self.shapeLayer.strokeColor = [[UIColor colorWithRed:86/255.0f green:202/255.0f blue:139/255.0f alpha:1] CGColor];
+    
+    [self.layer addSublayer:self.shapeLayer];
+}
+
+- (CGPathRef)waterWavePath
+{
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:CGPointMake(0, self.waterWaveHeight)];
+    
+    CGFloat y = 0.0f;
+    for (float x = 0; x <= self.width; x ++)
+    {
+        y = self.zoomY * cos( x / 270 * M_PI - 4 * self.translateX / M_PI )*2 + self.waterWaveHeight;
+        [path addLineToPoint:CGPointMake(x, y)];
+    }
+    [path addLineToPoint:CGPointMake(self.width, self.height)];
+    [path addLineToPoint:CGPointMake(0, self.height)];
+    [path addLineToPoint:CGPointMake(0, self.waterWaveHeight)];
+    [path closePath];
+    
+    return [path CGPath];
+}
+
+- (void)startDisplayLink
+{
+    self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(handleDisplayLink:)];
+    [self.displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
+}
+
+- (void)stopDisplayLink
+{
+    [self.displayLink invalidate];
+    self.displayLink = nil;
+}
+
+- (void)handleDisplayLink:(CADisplayLink *)displayLink
+{
+    
+    self.translateX += 0.05;// 平移
+    if (!self.flag)
+    {
+        self.zoomY += 0.02;
+        if (self.zoomY >= 1.5)
+        {
+            self.flag = YES;
+        }
+    }
+    else
+    {
+        self.zoomY -= 0.02;
+        if (self.zoomY <= 1.0)
+        {
+            self.flag = NO;
+        }
+    }
+    
+    self.shapeLayer.path = [self waterWavePath];
+}
+
+- (void)dealloc {
+    [self.displayLink invalidate];
 }
 
 @end

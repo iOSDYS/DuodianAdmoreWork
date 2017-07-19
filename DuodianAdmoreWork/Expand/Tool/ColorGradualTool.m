@@ -54,5 +54,6 @@
 //    gradientLayer.masksToBounds = YES;
 //    gradientLayer.zPosition = -1;
     [view.layer addSublayer:gradientLayer];
+    
 }
 @end
